@@ -18,6 +18,17 @@ module.exports = function (environment) {
       // Here you can pass flags/options to your application instance
       // when it is created
     },
+
+    'ember-cloud-firestore-adapter': {
+      firebaseConfig: {
+        apiKey: 'AIzaSyA2-9alLUOtJ0bmfieVBJoiNa_aVvz6tc8',
+        authDomain: 'issue-feed.firebaseapp.com',
+        projectId: 'issue-feed',
+        storageBucket: 'issue-feed.appspot.com',
+        messagingSenderId: '226703627432',
+        appId: '1:226703627432:web:803ab64122aec508255e9d',
+      },
+    },
   };
 
   if (environment === 'development') {
